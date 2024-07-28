@@ -1,0 +1,3 @@
+Command Line: /home/synopsys/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/vdCov -ufull64 -covdir vcs_cov_102709383.vdb/ vcs_cov_208932907.vdb/ vcs_cov_472734765.vdb/ vcs_cov_638185374.vdb/ vcs_cov_674298112.vdb/ vcs_cov_.vdb/
+uname(Linux IC_EDA 3.10.0-1160.6.1.el7.x86_64 #1 SMP Tue Nov 17 13:59:11 UTC 2020 x86_64)
+au time 1281.722937 18.028317 5.824788 delta 0 0 total 0 0

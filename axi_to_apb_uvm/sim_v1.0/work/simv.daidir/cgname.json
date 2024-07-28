@@ -1,0 +1,164 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        5
+    ],
+    "_vcs_DPI_package": [
+        "_vcs_DPI_package",
+        "uM9F1",
+        "module",
+        1
+    ],
+    "$dummyOvSvModule": [
+        "0x24dummyOvSvModule",
+        "QAfa9",
+        "module",
+        2
+    ],
+    "DW_axi_x2p_p": [
+        "DW_axi_x2p_p",
+        "q8E3C",
+        "module",
+        15
+    ],
+    "vcs_paramclassrepository": [
+        "vcs_paramclassrepository",
+        "hEeZs",
+        "module",
+        3
+    ],
+    "DW_axi_x2p_arb": [
+        "DW_axi_x2p_arb",
+        "Uaq7V",
+        "module",
+        7
+    ],
+    "DW_axi_x2p_cmd_queue": [
+        "DW_axi_x2p_cmd_queue",
+        "xr0nu",
+        "module",
+        13
+    ],
+    "_vcs_unit__511689581": [
+        "_vcs_unit__511689581",
+        "Du4BZ",
+        "module",
+        4
+    ],
+    "DW_axi_x2p_bcm99": [
+        "DW_axi_x2p_bcm99",
+        "UhGAf",
+        "module",
+        8
+    ],
+    "DW_axi_x2p_power_ctrl_legacy": [
+        "DW_axi_x2p_power_ctrl_legacy",
+        "kxc9d",
+        "module",
+        14
+    ],
+    "AXI_master_vif": [
+        "AXI_master_vif",
+        "tcVxv",
+        "module",
+        23
+    ],
+    "DW_axi_x2p_bcm21_0000": [
+        "DW_axi_x2p_bcm21_0000",
+        "fCVCB",
+        "module",
+        10
+    ],
+    "uvm_pkg": [
+        "uvm_pkg",
+        "zr7M1",
+        "module",
+        6
+    ],
+    "axi_bus_top": [
+        "axi_bus_top",
+        "bdG2h",
+        "module",
+        26
+    ],
+    "DW_axi_x2p_bcm07_0000_0000": [
+        "DW_axi_x2p_bcm07_0000_0000",
+        "N1uMg",
+        "module",
+        9
+    ],
+    "DW_axi_x2p_mux": [
+        "DW_axi_x2p_mux",
+        "KQFtD",
+        "module",
+        12
+    ],
+    "DW_axi_x2p_bcm21_0000_0000": [
+        "DW_axi_x2p_bcm21_0000_0000",
+        "FAQnp",
+        "module",
+        11
+    ],
+    "DW_axi_x2p_read_data_buffer": [
+        "DW_axi_x2p_read_data_buffer",
+        "cR31f",
+        "module",
+        16
+    ],
+    "DW_axi_x2p_resp_buffer": [
+        "DW_axi_x2p_resp_buffer",
+        "ErMGs",
+        "module",
+        17
+    ],
+    "DW_axi_x2p_s_packer": [
+        "DW_axi_x2p_s_packer",
+        "wRhfj",
+        "module",
+        18
+    ],
+    "DW_axi_x2p_s_response": [
+        "DW_axi_x2p_s_response",
+        "zyUzn",
+        "module",
+        19
+    ],
+    "DW_axi_x2p_s_unpack": [
+        "DW_axi_x2p_s_unpack",
+        "KwqBA",
+        "module",
+        20
+    ],
+    "DW_axi_x2p": [
+        "DW_axi_x2p",
+        "Z7fte",
+        "module",
+        22
+    ],
+    "DW_axi_x2p_write_data_buffer": [
+        "DW_axi_x2p_write_data_buffer",
+        "dE9y8",
+        "module",
+        21
+    ],
+    "AXI_slave_vif": [
+        "AXI_slave_vif",
+        "RacCt",
+        "module",
+        24
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        27
+    ],
+    "apb_slave_vif": [
+        "apb_slave_vif",
+        "U9jHJ",
+        "module",
+        25
+    ]
+}

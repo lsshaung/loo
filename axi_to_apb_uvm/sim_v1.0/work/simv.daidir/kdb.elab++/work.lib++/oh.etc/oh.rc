@@ -1,0 +1,5 @@
+@elabcom rc file Version 1.0
+[oh]
+invokeDir = /home/ICer/ic_prjs/axi_to_apb_uvm/sim_v1.0/work
+hostCommand = -lib simv.daidir/work -saveLevel -elab simv.daidir/kdb -simflow -simdir simv.daidir/kdb_libs -top "DW_axi_x2p_bcm99 DW_axi_x2p_power_ctrl_legacy axi_bus_top" -Lf work +disable_message+C00380+C00381 +disable_message+C00388+C00389 -SNPS_ELABCOM -saveElab
+simType = VCS

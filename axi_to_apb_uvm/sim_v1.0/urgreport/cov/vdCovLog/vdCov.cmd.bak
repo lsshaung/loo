@@ -1,0 +1,40 @@
+gui_exclusion -set_force true
+gui_assert_mode -mode flat
+gui_class_mode -mode hier
+gui_excl_mgr_flat_list -on  0
+gui_covdetail_select -id  CovDetail.1   -name   Line
+verdiWindowWorkMode -win $_vdCoverage_1 -coverageAnalysis
+gui_open_cov  -hier vcs_cov_102709383.vdb -testdir {vcs_cov_208932907.vdb vcs_cov_472734765.vdb vcs_cov_638185374.vdb vcs_cov_674298112.vdb vcs_cov_.vdb} -test {vcs_cov_102709383/test vcs_cov_208932907/test vcs_cov_472734765/test vcs_cov_638185374/test vcs_cov_674298112/test vcs_cov_/test} -merge MergedTest -db_max_tests 10 -fsm transition
+gui_set_pref_value -category {ColumnCfg} -key {covtblAssertList_Assert} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblAssertList_Match} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblAssertList_Success} -value {false}
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { axi_bus_top   }
+gui_list_expand -id  CoverageTable.1   -list {covtblInstancesList} axi_bus_top
+gui_list_expand -id  CoverageTable.1   -list {covtblInstancesList} axi_bus_top.DW_axi_x2p_u
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { axi_bus_top  axi_bus_top.DW_axi_x2p_u   }
+gui_exclude_items -id  CoverageTable.1  -selected
+gui_set_pref_value -category {Exclusion} -key {warningExcludeInstance} -value {false}
+gui_exclusion_file -save -file /home/ICer/axi_to_apb_uvm/sim_v1.0/cov/ex.el -id CoverageTable.1 -list covtblInstancesList -module_mode_supported -tree -module -incremental -format newformat
+gui_exclude_items -id  CoverageTable.1  -list { covtblInstancesList }  -include { axi_bus_top.DW_axi_x2p_u }
+gui_exclude_items -id  CoverageTable.1  -list { covtblInstancesList } { axi_bus_top.DW_axi_x2p_u }
+gui_exclude_items -id  CoverageTable.1  -list { covtblInstancesList }  -include { axi_bus_top.DW_axi_x2p_u }
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { axi_bus_top.DW_axi_x2p_u   }
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { axi_bus_top.DW_axi_x2p_u   }
+gui_exclude_items -id  CoverageTable.1  -list { covtblInstancesList } { axi_bus_top.DW_axi_x2p_u }
+gui_list_action -id  CoverageTable.1 -list {covtblInstancesList} axi_bus_top.DW_axi_x2p_u  -column { } 
+gui_exclude_items -id  CoverageTable.1  -list { covtblInstancesList }  -include { axi_bus_top.DW_axi_x2p_u }
+gui_exclude_items -id  CoverageTable.1  -list { covtblInstancesList } { axi_bus_top.DW_axi_x2p_u }
+gui_exclusion_file -save_all -file {/home/ICer/axi_to_apb_uvm/sim_v1.0/cov/ex.el}
+gui_exclusion_file -load -file {/home/ICer/axi_to_apb_uvm/sim_v1.0/cov/ex.el}
+gui_exclusion_file -load -file {/home/ICer/axi_to_apb_uvm/sim_v1.0/cov/ex.el}
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { axi_bus_top.DW_axi_x2p_u   }
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { axi_bus_top.DW_axi_x2p_u   }
+gui_exclude_items -id  CoverageTable.1  -selected  -include
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { axi_bus_top.DW_axi_x2p_u   }
+gui_exclusion_file -save_all -file {/home/ICer/axi_to_apb_uvm/sim_v1.0/cov/ex.el}
+gui_exclusion_file -load -file {/home/ICer/axi_to_apb_uvm/sim_v1.0/cov/ex.el}
+gui_exclusion_file -load -file {/home/ICer/axi_to_apb_uvm/sim_v1.0/cov/ex.el}
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { axi_bus_top.DW_axi_x2p_u   }
+gui_exclusion_file -load -file {/home/ICer/axi_to_apb_uvm/sim_v1.0/cov/ex.el}
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { axi_bus_top.DW_axi_x2p_u   }
+vdCovExit -noprompt

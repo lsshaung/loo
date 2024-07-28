@@ -1,0 +1,20 @@
+The designs 'vcs_cov_.vdb, vcs_cov_208932907.vdb, vcs_cov_472734765.vdb, vcs_cov_638185374.vdb, vcs_cov_674298112.vdb' were loaded successfully.
+The following tests are merged/loaded from "vcs_cov_.vdb, vcs_cov_208932907.vdb, vcs_cov_472734765.vdb, vcs_cov_638185374.vdb, vcs_cov_674298112.vdb",
+    vcs_cov_/test
+    vcs_cov_102709383/test
+    vcs_cov_208932907/test
+    vcs_cov_472734765/test
+    vcs_cov_638185374/test
+    vcs_cov_674298112/test
+The following flags are unrecognized for coverage and have been saved as 'verdi' debug flags:
+  -ufull64
+Please use Tools->Debug to launch the Verdi debugger with these flags.
+[DVCEX032] 
+No new exclusions were added to the exclusion file /home/ICer/axi_to_apb_uvm/sim_v1.0/cov/el.el.
+[DVCEX032] 
+No new exclusions were added to the exclusion file /home/ICer/axi_to_apb_uvm/sim_v1.0/cov/el.el.
+Exclusion file '/home/ICer/axi_to_apb_uvm/sim_v1.0/cov/el.el' has been saved successfully.
+[DVCEX032] 
+No new exclusions were added to the exclusion file /home/ICer/axi_to_apb_uvm/sim_v1.0/cov/el.el.
+Exclusion file '/home/ICer/axi_to_apb_uvm/sim_v1.0/cov/el.el' has been saved successfully.
+Exclusion file '/home/ICer/axi_to_apb_uvm/sim_v1.0/cov/el.el' has been saved successfully.

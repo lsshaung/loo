@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Module :: DW_axi_x2p_s_addr_dcd</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Module Definition</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | <a href="groups.html" ><b>groups</b></a> | <a href="tests.html" ><b>tests</b></a> | <a href="asserts.html" ><b>asserts</b></a></div>
+
+</div>
+<div class="ui-layout-west">
+<div name='tag_DW_axi_x2p_s_addr_dcd'>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module : <a href="#"  onclick="showContent('tag_DW_axi_x2p_s_addr_dcd')">DW_axi_x2p_s_addr_dcd</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td>ASSERT</td></tr><tr>
+<td class="s6 cl rt"> 69.67</td>
+<td class="s7 cl rt"><a href="mod3.html#Line" > 75.81</a></td>
+<td class="s10 cl rt"><a href="mod3.html#Cond" >100.00</a></td>
+<td class="s3 cl rt"><a href="mod3.html#Toggle" > 30.44</a></td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"><a href="mod3.html#Branch" > 72.41</a></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home/ICer/axi_to_apb_uvm/sim_v1.0/script/../../rtl/DW_axi_x2p_s_addr_dcd.v')">/home/ICer/axi_to_apb_uvm/sim_v1.0/script/../../rtl/DW_axi_x2p_s_addr_dcd.v</a><br clear=all>
+<br clear=all>
+<span class=repname>Module self-instances :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td>ASSERT</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod3.html#inst_tag_2"  onclick="showContent('inst_tag_2')">axi_bus_top.DW_axi_x2p_u.U_APB_MASTER.U_x2ps_addr</a></td>
+<td class="s6 cl rt"> 69.67</td>
+<td class="s7 cl rt"><a href="mod3.html#Line" > 75.81</a></td>
+<td class="s10 cl rt"><a href="mod3.html#Cond" >100.00</a></td>
+<td class="s3 cl rt"><a href="mod3.html#Toggle" > 30.44</a></td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"><a href="mod3.html#Branch" > 72.41</a></td>
+<td class="wht cl rt"></td>
+</tr></table></div>
+</div>
+<br clear=all>
+<div name='tag_DW_axi_x2p_s_addr_dcd'>
+<hr>
+<a name="inst_tag_2"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy.html#tag_urg_inst_2" >axi_bus_top.DW_axi_x2p_u.U_APB_MASTER.U_x2ps_addr</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td>ASSERT</td></tr><tr>
+<td class="s6 cl rt"> 69.67</td>
+<td class="s7 cl rt"><a href="mod3.html#Line" > 75.81</a></td>
+<td class="s10 cl rt"><a href="mod3.html#Cond" >100.00</a></td>
+<td class="s3 cl rt"><a href="mod3.html#Toggle" > 30.44</a></td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"><a href="mod3.html#Branch" > 72.41</a></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td>ASSERT</td></tr><tr>
+<td class="s6 cl rt"> 68.25</td>
+<td class="s7 cl rt"> 76.92</td>
+<td class="s9 cl rt"> 92.31</td>
+<td class="s2 cl rt"> 29.56</td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"> 74.19</td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td>ASSERT</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s9 cl rt"> 93.16</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s7 cl rt"> 72.65</td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td><a href="mod22.html#inst_tag_41" >U_APB_MASTER</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td>ASSERT</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod23.html#inst_tag_42" id="tag_urg_inst_42">U_apb_psel</a></td>
+<td class="s7 cl rt"> 77.37</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s8 cl rt"> 88.89</td>
+<td class="s2 cl rt"> 20.59</td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+</div>
+</div>
+<hr>
+Since this is the module's only instance, the coverage report is the same as for the module.</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='tag_DW_axi_x2p_s_addr_dcd'>
+<a name="Line"></a>
+Line Coverage for Module : <a href="mod3.html" >DW_axi_x2p_s_addr_dcd</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s7"><td class="lf">TOTAL</td><td></td><td>62</td><td>47</td><td>75.81</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>120</td><td>2</td><td>2</td><td>100.00</td></tr>
+<tr class="s2"><td class="lf">ALWAYS</td><td>132</td><td>11</td><td>3</td><td>27.27</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>187</td><td>4</td><td>4</td><td>100.00</td></tr>
+<tr class="s6"><td class="lf">ALWAYS</td><td>217</td><td>20</td><td>13</td><td>65.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>278</td><td>2</td><td>2</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>295</td><td>14</td><td>14</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>334</td><td>9</td><td>9</td><td>100.00</td></tr>
+</table>
+<pre class="code"><br clear=all>
+119                        begin: BASE_ADDR_INC_PROC
+120        1/1                base_addr_inc = 8'h01;
+121                     
+122                           // Intended to Shift by non-constant
+123                        //spyglass disable_block W415a
+124                        //SMD: Signal may be multiply assigned(beside initialization) in the same scope.
+125                        //SJ : We are initializing base_addr_inc signal before assigning to avoid latches.
+126        1/1                base_addr_inc = base_addr_inc &lt;&lt; cmd_size;
+127                       //spyglass enable_block W415a
+128                        end
+129                     // used in WRAP to mask the wrap address
+130                        always @(/*AS*/cmd_len or cmd_size or cmd_type)
+131                          begin: ADDR_LSB_MASK_PROC
+132        1/1                 addr_lsb_mask = {`X2P_CMD_ADDR_WIDTH{1'b1}};//-1;
+133        1/1                 wrap_error    = 1'b0;
+134                     
+135        1/1                  if (cmd_type == 2)
+136                               begin
+137                       //spyglass disable_block W415a
+138                       //SMD: Signal may be multiply assigned(beside initialization) in the same scope.
+139                       //SJ : We are masking the bits of addr_lsb_mask based on cmd_len value before  multiply the beats  by the size to get the total bytes in the transfer.
+140                                 // to do wrap set up the mask for the address
+141                                 // set to the number of beats.
+142        <font color = "red">0/1     ==>              case(cmd_len)      </font>
+143        <font color = "red">0/1     ==>                1      : addr_lsb_mask[0]   = 1'b0;</font>
+144        <font color = "red">0/1     ==>                3      : addr_lsb_mask[1:0] = 2'b0;</font>
+145        <font color = "red">0/1     ==>                7      : addr_lsb_mask[2:0] = 3'b0;</font>
+146        <font color = "red">0/1     ==>                15     : addr_lsb_mask[3:0] = 4'b0;</font>
+147                                   default:
+148                                     begin
+149        <font color = "red">0/1     ==>                    wrap_error         = 1'b1;</font>
+150        <font color = "red">0/1     ==>                    addr_lsb_mask      = {`X2P_CMD_ADDR_WIDTH{1'b0}};</font>
+151                                     end     
+152                                 endcase // case(cmd_len)
+153                          
+154                          
+155                          
+156                          
+157                          
+158                                 // multiply the beats  by the size this will get the total bytes in the transfer
+159                                 // and the locs for the wrapping address 
+160        <font color = "red">0/1     ==>              addr_lsb_mask = addr_lsb_mask &lt;&lt; cmd_size;</font>
+161                         // spyglass enable_block W415a
+162                               end // if (cmd_type == 2)
+                        MISSING_ELSE
+163                          end // always @ (...
+164                        
+165                            
+166                        //********************************************************************************
+167                        //
+168                        //  Addresss generation
+169                        //  Overriding in the following order
+170                        //  if set_addr 
+171                        //     comes when the cmd queue is popped and in Fixed types when the
+172                        //     last apb transfer for the AXI word
+173                        //  else if incr_base_addr
+174                        //      on the last apb word transfer of the AXI word
+175                        //      The base_addr is the calculation of the address by SIZE incrs.
+176                        //      the next_address sent o the APB is the base address incrimented by the APB
+177                        //  else if incr_addr
+178                        //      comes with each apb transfer
+179                        //         
+180                        //  
+181                        //
+182                        
+183                        // the address generated on set address
+184                        // at this time the write buff is being popped
+185                        always @(*)
+186                          begin: NEXT_ADDR_SET_PROC
+187        1/1                 next_base_address_from_set = cmd_addr; 
+188                            // the base is the cmd_add address
+189                            // indicatating the first beat address
+190        1/1                 if (cmd_direction == 1'b1)
+191                              begin
+192                                // the address will be the base aligned to the AXI data 
+193                                // width displaced by the first write strobe
+194        1/1                     next_address_from_set = {cmd_addr[`X2P_CMD_ADDR_WIDTH-1:AXI_MOD], {AXI_MOD{1'b0}}};
+195                              end
+196                            else
+197                              begin
+198                                // read base is set to the cmd address
+199        1/1                     next_address_from_set = cmd_addr;
+200                             end // else: !if(cmd_direction == 1'b1)
+201                          end // always @ (...
+202                     
+203                         // spyglass disable_block STARC-2.10.6.1
+204                         // SMD: Possible loss of carry or borrow in addition or subtraction (Verilog)
+205                         // SJ: Overflow will never happen functionally. RTL was written with a particular
+206                         // function in mind so any concerns regarding loss of carry/borrow in addition/subtraction
+207                         // can be ignored by spyglass.
+208                         // spyglass disable_block W484
+209                         // SMD: Possible loss of carry or borrow due to addition and subtraction.
+210                         // SJ : Overflow will never happen functionally. RTL was written with a particular
+211                         // function in mind so any concerns regarding loss of carry/borrow in addition/subtraction
+212                         // can be ignored by spyglass.
+213                         // the incrimenting of the base is done when the write buffer
+214                         // is being popped     
+215                         always @(*)
+216                           begin: NEXT_ADDR_INCR_BASE_PROC
+217        1/1                  next_address_from_incr_base = address;
+218        1/1                  next_base_address_from_incr_base = base_addr;
+219        1/1                  address_temp = {`X2P_CMD_ADDR_WIDTH{1'b0}}; 
+220                             // a new beat from the AXI, calculate the address for the AXI beat
+221                             // incriment the base to the next beat AXI address
+222        1/1                  case (cmd_type)
+223                               0: begin // Fixed
+224        1/1                      next_base_address_from_incr_base = cmd_addr;
+225        1/1                      next_address_from_incr_base = {`X2P_CMD_ADDR_WIDTH{1'b0}};
+226        1/1                      if (cmd_direction == 1'b1)
+227                                   begin
+228        1/1                          next_address_from_incr_base = {cmd_addr[`X2P_CMD_ADDR_WIDTH-1:AXI_MOD], {AXI_MOD{1'b0}}};
+229                                   end
+230                                 else 
+231        1/1                        next_address_from_incr_base = cmd_addr;
+232                               end
+233                               1: begin
+234                                 // the next address is set to the AXI word boundary
+235        1/1                      next_base_address_from_incr_base = base_addr + {{(`X2P_CMD_ADDR_WIDTH-8){1'b0}}, base_addr_inc};    
+236                                 // the wite strobes will indicate the displacement
+237        1/1                      if (cmd_direction == 1'b1) 
+238                                   begin
+239        1/1                          next_address_from_incr_base = {next_base_address_from_incr_base[`X2P_CMD_ADDR_WIDTH-1:AXI_MOD], {AXI_MOD{1'b0}}};
+240                                   end
+241                                 // read is just a increment of paddr b APB word
+242                                 else 
+243        1/1                        next_address_from_incr_base = address + {{(`X2P_CMD_ADDR_WIDTH-9){1'b0}}, APB_ADD_INC};
+244                               end // case: 1
+245                               2: begin // WRAP     
+246                               // the incrimented base address is wrapped base on 
+247                               // incrementing the SIZE address bit
+248                               
+249        <font color = "red">0/1     ==>            address_temp = base_addr + {{(`X2P_CMD_ADDR_WIDTH-8){1'b0}}, base_addr_inc};</font>
+250                               // now restore the address outside the wrap making this wrap on the SIZE * LEN bits
+251        <font color = "red">0/1     ==>            next_base_address_from_incr_base = base_addr &amp; addr_lsb_mask;</font>
+252                               // spyglass disable_block W415a
+253                               // SMD: Signal may be multiply assigned (beside initialization) in the same scope.
+254                               // SJ : next_base_address_from_incr_base is updated to restore the address outside the wrap making this wrap on the SIZE * LEN bits.
+255        <font color = "red">0/1     ==>            next_base_address_from_incr_base = next_base_address_from_incr_base </font>
+256                                                               | (address_temp &amp; (~addr_lsb_mask));    
+257                               // spyglass enable_block W415a
+258                               // the wite strobes will indicate the displacement
+259        <font color = "red">0/1     ==>            if (cmd_direction == 1'b1)</font>
+260                                 begin
+261        <font color = "red">0/1     ==>                next_address_from_incr_base = {next_base_address_from_incr_base[`X2P_CMD_ADDR_WIDTH-1:AXI_MOD], {AXI_MOD{1'b0}}};</font>
+262                                 end
+263                               // read is just a increment of paddr 
+264                               else 
+265        <font color = "red">0/1     ==>              next_address_from_incr_base = next_base_address_from_incr_base;</font>
+266                               end // case: 2
+267                               default: begin // all the others are considered to be INCR     
+268        <font color = "red">0/1     ==>              next_base_address_from_incr_base = base_addr + {{(`X2P_CMD_ADDR_WIDTH-8){1'b0}}, base_addr_inc};</font>
+269                               end
+270                             endcase // case(cmd_type)
+271                           end // always @ (...\
+272                         // spyglass enable_block W484
+273                         // spyglass enable_block STARC-2.10.6.1
+274                     
+275                        // the incr address is used to just incriment the address by the apb word
+276                        always @(*)
+277                          begin:NEXT_ADDR_INCR_PROC
+278        1/1                 next_base_address_from_incr = base_addr;
+279        1/1                 next_address_from_incr = address + {{(`X2P_CMD_ADDR_WIDTH-9){1'b0}}, APB_ADD_INC};
+280                          end
+281                     
+282                        // now select which one to send to address
+283                        // spyglass disable_block W415a
+284                        // SMD: Signal may be multiply assigned (beside initialization) in the same scope.
+285                        // SJ : next_address and next_base_addr are updated based on mutually dependent conditions with highest priority given to incr_address in the same always block.
+286                        always @(/*AS*/address or base_addr or incr_address
+287                                 or incr_base_address or next_address_from_incr
+288                                 or next_address_from_incr_base or next_address_from_set
+289                                 or next_base_address_from_incr
+290                                 or next_base_address_from_incr_base
+291                                 or next_base_address_from_set or set_address)
+292                          begin: NEXT_ADDR_PROC
+293                            // the following sets up the priority of choices
+294                            // above I set it such that only one of the signals could be activ
+295        1/1                 next_address = address;
+296        1/1                 next_base_addr = base_addr;
+297        1/1                 if ({set_address,incr_base_address,incr_address} == 3'b0)
+298                              begin
+299        1/1                     next_address = address;
+300        1/1                     next_base_addr = base_addr;
+301                              end
+                        MISSING_ELSE
+302        1/1                 if (set_address == 1'b1)
+303                              begin
+304        1/1                     next_address = next_address_from_set;
+305        1/1                     next_base_addr = next_base_address_from_set;
+306                              end
+                        MISSING_ELSE
+307        1/1                 if (incr_base_address == 1'b1)
+308                              begin
+309        1/1                     next_address = next_address_from_incr_base;
+310        1/1                     next_base_addr = next_base_address_from_incr_base;
+311                              end
+                        MISSING_ELSE
+312        1/1                 if (incr_address == 1'b1)
+313                              begin
+314        1/1                     next_address = next_address_from_incr;
+315        1/1                     next_base_addr = next_base_address_from_incr;
+316                              end
+                        MISSING_ELSE
+317                          end // always @ (...
+318                          // spyglass enable_block W415a
+319                      
+320                        // get the psels from the address decoder
+321                        DW_axi_x2p_dcdr
+322                         U_apb_psel(.psel_addr({address[`X2P_CMD_ADDR_WIDTH-1:10]}),
+323                                                   .psel_err(next_decode_error),
+324                                                   .psel_int(raw_psel));
+325                        assign dcd_error = next_decode_error | wrap_error;
+326                     
+327                        assign next_paddr = (update_address == 1'b1) ? next_address[`X2P_APB_ADDR_WIDTH-1:0] : paddr;
+328                        assign next_psel = (update_address == 1'b1) ? raw_psel : psel;
+329                      
+330                       
+331                        // now the register
+332                        always @(posedge clk or negedge rstn)
+333                          begin: S_REGS_PROC
+334        1/1                 if (!rstn)
+335                              begin
+336        1/1                     base_addr &lt;= {`X2P_CMD_ADDR_WIDTH{1'b0}};
+337        1/1                     paddr &lt;= {`X2P_APB_ADDR_WIDTH{1'b0}};
+338        1/1                     psel &lt;= {`X2P_NUM_APB_SLAVES{1'b0}};
+339        1/1                     address &lt;= {`X2P_CMD_ADDR_WIDTH{1'b0}};
+340                              end
+341                            else
+342                              begin
+343        1/1                     base_addr &lt;= next_base_addr;
+344        1/1                     paddr &lt;= next_paddr;
+345        1/1                     psel &lt;= next_psel;
+346        1/1                     address &lt;= next_address;
+</pre>
+<hr>
+<a name="Cond"></a>
+Cond Coverage for Module : <a href="mod3.html" >DW_axi_x2p_s_addr_dcd</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="3" width="82">
+<tr><th></th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s10"><td class="lf">Conditions</td><td>4</td><td>4</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">Logical</td><td>4</td><td>4</td><td>100.00</td></tr>
+<tr class="wht"><td class="lf">Non-Logical</td><td>0</td><td>0</td><td></td></tr>
+<tr class="wht"><td class="lf">Event</td><td>0</td><td>0</td><td></td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       327
+ EXPRESSION ((update_address == 1'b1) ? next_address[(32 - 1):0] : paddr)
+             ------------1-----------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       328
+ EXPRESSION ((update_address == 1'b1) ? raw_psel : psel)
+             ------------1-----------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<hr>
+<a name="Toggle"></a>
+Toggle Coverage for Module : <a href="mod3.html" >DW_axi_x2p_s_addr_dcd</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s4">
+<td>Totals</td>
+<td class="rt">35</td>
+<td class="rt">14</td>
+<td class="rt">40.00 </td>
+</tr><tr class="s3">
+<td>Total Bits</td>
+<td class="rt">1038</td>
+<td class="rt">316</td>
+<td class="rt">30.44 </td>
+</tr><tr class="s3">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">519</td>
+<td class="rt">157</td>
+<td class="rt">30.25 </td>
+</tr><tr class="s3">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">519</td>
+<td class="rt">159</td>
+<td class="rt">30.64 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s6">
+<td>Ports</td>
+<td class="rt">14</td>
+<td class="rt">9</td>
+<td class="rt">64.29 </td>
+</tr><tr class="s4">
+<td>Port Bits</td>
+<td class="rt">168</td>
+<td class="rt">73</td>
+<td class="rt">43.45 </td>
+</tr><tr class="s4">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">84</td>
+<td class="rt">36</td>
+<td class="rt">42.86 </td>
+</tr><tr class="s4">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">84</td>
+<td class="rt">37</td>
+<td class="rt">44.05 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Signals</td>
+<td class="rt">21</td>
+<td class="rt">5</td>
+<td class="rt">23.81 </td>
+</tr><tr class="s2">
+<td>Signal Bits</td>
+<td class="rt">870</td>
+<td class="rt">243</td>
+<td class="rt">27.93 </td>
+</tr><tr class="s2">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">435</td>
+<td class="rt">121</td>
+<td class="rt">27.82 </td>
+</tr><tr class="s2">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">435</td>
+<td class="rt">122</td>
+<td class="rt">28.05 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Direction</td></tr><tr>
+<td>clk</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>rstn</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>cmd_addr[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>cmd_addr[11:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>cmd_addr[31:12]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>cmd_type[0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>cmd_type[1]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>cmd_size[0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>cmd_size[1]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>cmd_size[2]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>cmd_len[3:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>cmd_direction</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>incr_addr</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>incr_base_addr</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>set_addr</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>update_address</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>dcd_error</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>paddr[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>paddr[11:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>paddr[31:12]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>psel[2:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td></tr><tr>
+<td>next_paddr[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_paddr[11:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_paddr[31:12]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_psel[2:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>raw_psel[2:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_address[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_address[11:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_address[31:12]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>address_temp[31:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>address[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>address[11:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>address[31:12]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_address_from_set[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_address_from_set[11:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_address_from_set[31:12]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_base_address_from_set[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_base_address_from_set[11:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_base_address_from_set[31:12]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_address_from_incr_base[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_address_from_incr_base[11:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_address_from_incr_base[31:12]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_base_address_from_incr_base[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_base_address_from_incr_base[11:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_base_address_from_incr_base[31:12]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_address_from_incr[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_address_from_incr[11:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_address_from_incr[31:12]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_base_address_from_incr[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_base_address_from_incr[11:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_base_address_from_incr[31:12]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>base_addr[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>base_addr[11:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>base_addr[31:12]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_base_addr[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_base_addr[11:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_base_addr[31:12]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>addr_lsb_mask[31:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>set_address</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>incr_base_address</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>incr_address</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_decode_error</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>base_addr_inc[0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>base_addr_inc[1]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>base_addr_inc[2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>base_addr_inc[7:3]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>wrap_error</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr></table><br clear=all>
+<hr>
+<a name="Branch"></a>
+Branch Coverage for Module : <a href="mod3.html" >DW_axi_x2p_s_addr_dcd</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Line No.</th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s7">
+<td>Branches</td>
+<td></td>
+<td class="rt">29</td>
+<td class="rt">21</td>
+<td class="rt">72.41 </td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">327</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">328</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s1">
+<td>IF</td>
+<td class="rt">135</td>
+<td class="rt">6</td>
+<td class="rt">1</td>
+<td class="rt">16.67 </td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">190</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s5">
+<td>CASE</td>
+<td class="rt">222</td>
+<td class="rt">7</td>
+<td class="rt">4</td>
+<td class="rt">57.14 </td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">297</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">302</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">307</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">312</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">334</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+327           assign next_paddr = (update_address == 1'b1) ? next_address[`X2P_APB_ADDR_WIDTH-1:0] : paddr;
+                                                           <font color = "green">-1-</font>  
+                                                           <font color = "green">==></font>  
+                                                           <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+328           assign next_psel = (update_address == 1'b1) ? raw_psel : psel;
+                                                          <font color = "green">-1-</font>  
+                                                          <font color = "green">==></font>  
+                                                          <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+135                if (cmd_type == 2)
+                   <font color = "red">-1-</font>  
+136                  begin
+137          //spyglass disable_block W415a
+138          //SMD: Signal may be multiply assigned(beside initialization) in the same scope.
+139          //SJ : We are masking the bits of addr_lsb_mask based on cmd_len value before  multiply the beats  by the size to get the total bytes in the transfer.
+140                    // to do wrap set up the mask for the address
+141                    // set to the number of beats.
+142                    case(cmd_len)      
+                       <font color = "red">-2-</font>  
+143                      1      : addr_lsb_mask[0]   = 1'b0;
+           <font color = "red">              ==></font>
+144                      3      : addr_lsb_mask[1:0] = 2'b0;
+           <font color = "red">              ==></font>
+145                      7      : addr_lsb_mask[2:0] = 3'b0;
+           <font color = "red">              ==></font>
+146                      15     : addr_lsb_mask[3:0] = 4'b0;
+           <font color = "red">              ==></font>
+147                      default:
+148                        begin
+149                          wrap_error         = 1'b1;
+           <font color = "red">                  ==></font>
+150                          addr_lsb_mask      = {`X2P_CMD_ADDR_WIDTH{1'b0}};
+151                        end     
+152                    endcase // case(cmd_len)
+153             
+154             
+155             
+156             
+157             
+158                    // multiply the beats  by the size this will get the total bytes in the transfer
+159                    // and the locs for the wrapping address 
+160                    addr_lsb_mask = addr_lsb_mask << cmd_size;
+161            // spyglass enable_block W415a
+162                  end // if (cmd_type == 2)
+                     MISSING_ELSE
+           <font color = "green">          ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>Status</th></tr><tr class="uRed">
+<td align=center>1</td>
+<td align=center>1 </td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>1</td>
+<td align=center>3 </td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>1</td>
+<td align=center>7 </td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>1</td>
+<td align=center>15 </td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>1</td>
+<td align=center>default</td>
+<td>Not Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+190               if (cmd_direction == 1'b1)
+                  <font color = "green">-1-</font>  
+191                 begin
+192                   // the address will be the base aligned to the AXI data 
+193                   // width displaced by the first write strobe
+194                   next_address_from_set = {cmd_addr[`X2P_CMD_ADDR_WIDTH-1:AXI_MOD], {AXI_MOD{1'b0}}};
+           <font color = "green">           ==></font>
+195                 end
+196               else
+197                 begin
+198                   // read base is set to the cmd address
+199                   next_address_from_set = cmd_addr;
+           <font color = "green">           ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+222                case (cmd_type)
+                   <font color = "red">-1-</font>  
+223                  0: begin // Fixed
+224                    next_base_address_from_incr_base = cmd_addr;
+225                    next_address_from_incr_base = {`X2P_CMD_ADDR_WIDTH{1'b0}};
+226                    if (cmd_direction == 1'b1)
+                       <font color = "green">-2-</font>  
+227                      begin
+228                        next_address_from_incr_base = {cmd_addr[`X2P_CMD_ADDR_WIDTH-1:AXI_MOD], {AXI_MOD{1'b0}}};
+           <font color = "green">                ==></font>
+229                      end
+230                    else 
+231                      next_address_from_incr_base = cmd_addr;
+           <font color = "green">              ==></font>
+232                  end
+233                  1: begin
+234                    // the next address is set to the AXI word boundary
+235                    next_base_address_from_incr_base = base_addr + {{(`X2P_CMD_ADDR_WIDTH-8){1'b0}}, base_addr_inc};    
+236                    // the wite strobes will indicate the displacement
+237                    if (cmd_direction == 1'b1) 
+                       <font color = "green">-3-</font>  
+238                      begin
+239                        next_address_from_incr_base = {next_base_address_from_incr_base[`X2P_CMD_ADDR_WIDTH-1:AXI_MOD], {AXI_MOD{1'b0}}};
+           <font color = "green">                ==></font>
+240                      end
+241                    // read is just a increment of paddr b APB word
+242                    else 
+243                      next_address_from_incr_base = address + {{(`X2P_CMD_ADDR_WIDTH-9){1'b0}}, APB_ADD_INC};
+           <font color = "green">              ==></font>
+244                  end // case: 1
+245                  2: begin // WRAP     
+246                  // the incrimented base address is wrapped base on 
+247                  // incrementing the SIZE address bit
+248                  
+249                  address_temp = base_addr + {{(`X2P_CMD_ADDR_WIDTH-8){1'b0}}, base_addr_inc};
+250                  // now restore the address outside the wrap making this wrap on the SIZE * LEN bits
+251                  next_base_address_from_incr_base = base_addr & addr_lsb_mask;
+252                  // spyglass disable_block W415a
+253                  // SMD: Signal may be multiply assigned (beside initialization) in the same scope.
+254                  // SJ : next_base_address_from_incr_base is updated to restore the address outside the wrap making this wrap on the SIZE * LEN bits.
+255                  next_base_address_from_incr_base = next_base_address_from_incr_base 
+256                                                  | (address_temp & (~addr_lsb_mask));    
+257                  // spyglass enable_block W415a
+258                  // the wite strobes will indicate the displacement
+259                  if (cmd_direction == 1'b1)
+                     <font color = "red">-4-</font>  
+260                    begin
+261                      next_address_from_incr_base = {next_base_address_from_incr_base[`X2P_CMD_ADDR_WIDTH-1:AXI_MOD], {AXI_MOD{1'b0}}};
+           <font color = "red">              ==></font>
+262                    end
+263                  // read is just a increment of paddr 
+264                  else 
+265                    next_address_from_incr_base = next_base_address_from_incr_base;
+           <font color = "red">            ==></font>
+266                  end // case: 2
+267                  default: begin // all the others are considered to be INCR     
+268                    next_base_address_from_incr_base = base_addr + {{(`X2P_CMD_ADDR_WIDTH-8){1'b0}}, base_addr_inc};
+           <font color = "red">            ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>0 </td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0 </td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1 </td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1 </td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td align=center>2 </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>2 </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>default</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+297               if ({set_address,incr_base_address,incr_address} == 3'b0)
+                  <font color = "green">-1-</font>  
+298                 begin
+299                   next_address = address;
+           <font color = "green">           ==></font>
+300                   next_base_addr = base_addr;
+301                 end
+                    MISSING_ELSE
+           <font color = "green">         ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+302               if (set_address == 1'b1)
+                  <font color = "green">-1-</font>  
+303                 begin
+304                   next_address = next_address_from_set;
+           <font color = "green">           ==></font>
+305                   next_base_addr = next_base_address_from_set;
+306                 end
+                    MISSING_ELSE
+           <font color = "green">         ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+307               if (incr_base_address == 1'b1)
+                  <font color = "green">-1-</font>  
+308                 begin
+309                   next_address = next_address_from_incr_base;
+           <font color = "green">           ==></font>
+310                   next_base_addr = next_base_address_from_incr_base;
+311                 end
+                    MISSING_ELSE
+           <font color = "green">         ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+312               if (incr_address == 1'b1)
+                  <font color = "green">-1-</font>  
+313                 begin
+314                   next_address = next_address_from_incr;
+           <font color = "green">           ==></font>
+315                   next_base_addr = next_base_address_from_incr;
+316                 end
+                    MISSING_ELSE
+           <font color = "green">         ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+334               if (!rstn)
+                  <font color = "green">-1-</font>  
+335                 begin
+336                   base_addr <= {`X2P_CMD_ADDR_WIDTH{1'b0}};
+           <font color = "green">           ==></font>
+337                   paddr <= {`X2P_APB_ADDR_WIDTH{1'b0}};
+338                   psel <= {`X2P_NUM_APB_SLAVES{1'b0}};
+339                   address <= {`X2P_CMD_ADDR_WIDTH{1'b0}};
+340                 end
+341               else
+342                 begin
+343                   base_addr <= next_base_addr;
+           <font color = "green">           ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="inst_tag_2">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+  <ul name="tag_DW_axi_x2p_s_addr_dcd">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

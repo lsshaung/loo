@@ -1,0 +1,56 @@
+{
+    "_vcs_unit__3540999492": [
+        "_vcs_unit__3540999492",
+        "iLLLn",
+        "module",
+        1
+    ],
+    "_vcs_DPI_package": [
+        "_vcs_DPI_package",
+        "uM9F1",
+        "module",
+        2
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        4
+    ],
+    "AXI_master_vif": [
+        "AXI_master_vif",
+        "tcVxv",
+        "module",
+        5
+    ],
+    "AXI_slave_vif": [
+        "AXI_slave_vif",
+        "RacCt",
+        "module",
+        6
+    ],
+    "uvm_pkg": [
+        "uvm_pkg",
+        "zr7M1",
+        "module",
+        3
+    ],
+    "apb_slave_vif": [
+        "apb_slave_vif",
+        "U9jHJ",
+        "module",
+        7
+    ],
+    "vcsAssertDve": [
+        "vcsAssertDve",
+        "P2SMa",
+        "module",
+        8
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        9
+    ]
+}
